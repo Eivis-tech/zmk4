@@ -11,10 +11,10 @@
                 &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J &kp K &kp L
                 &kp M &kp N &kp O &kp P &kp Q &kp R &kp S &kp T &kp U &kp V &kp W &kp X
                 &kp Y &kp Z
-                &mo 1   // momentary Layer 1
-                &mo 2   // momentary Layer 2
-                &tog 3  // toggle Layer 3
-                &tog 4  // toggle Layer 4
+                &mo(1)       // momentary Layer 1
+                &mo(2)       // momentary Layer 2
+                &tog(3)      // toggle Layer 3
+                &tog(4)      // toggle Layer 4
                 &studio_unlock  // atrakina Studio
                 &bt BT_CLR      // išvalo senus Bluetooth pairingus
                 &bt BT_SEL 0    // pasirinks pirmą profilį
@@ -49,27 +49,6 @@
             display-name = "Layer 4";
             bindings = <
                 &kp TAB &kp ESC &kp CAPS &kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT
-            >;
-        };
-
-        layer_5 {
-            display-name = "Layer 5";
-            bindings = <
-                &kp VOLUP &kp VOLDOWN &kp MUTE &kp PLAY &kp NEXT &kp PREV
-            >;
-        };
-
-        layer_6 {
-            display-name = "Layer 6";
-            bindings = <
-                &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6 &kp 7 &kp 8 &kp 9 &kp 0
-            >;
-        };
-
-        layer_7 {
-            display-name = "Layer 7";
-            bindings = <
-                &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J
             >;
         };
     };
