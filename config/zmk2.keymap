@@ -18,7 +18,9 @@
 
         layer_1 {
             display-name = "Layer 1";
-            bindings = <>;
+            bindings = <
+                &kp TRANSPARENT
+            >;
         };
     };
 };
