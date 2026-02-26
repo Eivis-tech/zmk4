@@ -11,10 +11,10 @@
                 &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H &kp I &kp J &kp K &kp L
                 &kp M &kp N &kp O &kp P &kp Q &kp R &kp S &kp T &kp U &kp V &kp W &kp X
                 &kp Y &kp Z
-                &mo(1)       // momentary Layer 1
-                &mo(2)       // momentary Layer 2
-                &tog(3)      // toggle Layer 3
-                &tog(4)      // toggle Layer 4
+                &mo_1        // momentary Layer 1
+                &mo_2        // momentary Layer 2
+                &tog_3       // toggle Layer 3
+                &tog_4       // toggle Layer 4
                 &studio_unlock  // atrakina Studio
                 &bt BT_CLR      // išvalo senus Bluetooth pairingus
                 &bt BT_SEL 0    // pasirinks pirmą profilį
@@ -27,7 +27,6 @@
             display-name = "Layer 1";
             bindings = <
                 &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6 &kp 7 &kp 8 &kp 9 &kp 0 &kp MINUS &kp EQL
-                &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
             >;
         };
 
