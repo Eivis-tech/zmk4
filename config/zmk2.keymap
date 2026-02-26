@@ -16,10 +16,11 @@
             >;
         };
 
+        // Minimalus antras sluoksnis, kad Studio pamatytų
         layer_1 {
             display-name = "Layer 1";
             bindings = <
-                &kp TRANSPARENT
+                &trans   // privalomas minimalus keycode
             >;
         };
     };
