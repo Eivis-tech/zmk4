@@ -1,18 +1,16 @@
 include:
-  # LEFT — BLE central + ZMK Studio
+  # LEFT — Central + BLE + Studio (USB)
   - board: nice_nano_v2
     shield: zmk2_left
-    snippet: bluetooth studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_BLE=y -DCONFIG_ZMK_STUDIO=y
-    artifact-name: zmk2_left_with_ble
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: zmk2_left_with_studio
 
-  # RIGHT — BLE peripheral
+  # RIGHT — Peripheral (split only)
   - board: nice_nano_v2
     shield: zmk2_right
-    snippet: bluetooth
-    cmake-args: -DCONFIG_ZMK_BLE=y
-    artifact-name: zmk2_right_with_ble
+    artifact-name: zmk2_right
 
-  # Settings reset (to clear old pairing)
+  # Reset firmware (naudoti prieš pirmą pairing)
   - board: nice_nano_v2
     shield: settings_reset
