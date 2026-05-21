@@ -19,3 +19,8 @@
     transform = <&matrix_transform0>;
 };
 
+/ {
+    chosen {
+        zmk,physical-layout = &physical_layout_zmk2;
+    };
+};
